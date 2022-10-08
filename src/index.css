@@ -1,0 +1,51 @@
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  padding-top: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+.header_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo, .cart{
+  color: #f6a8f2;
+  font-size: 30px;
+}
+
+.header_element {
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #f6a8f2;
+}
+.table {
+  margin-top: 100px;
+  width: 100%;
+}
+.table_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  font-size: 20px;
+  background-color: lightgray;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: #000;
+}
+.table_item {
+  margin: 0 30px;
+}
