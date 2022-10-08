@@ -1,7 +1,8 @@
 
 .container {
+  margin: 0 20px;
   width: 100%;
-  max-width: 700px;
+  max-width: 1000px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -39,6 +40,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  font-weight: bold;
   padding: 5px 0;
   font-size: 20px;
   background-color: lightgray;
@@ -46,6 +48,32 @@
   border-radius: 50px;
   border-color: #000;
 }
+.table_menu2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  font-size: 20px;
+  background-color: lightgray;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: #000;
+  margin-top: -3px;
+}
 .table_item {
   margin: 0 30px;
+  text-align: center;
+}
+.table_item_name {
+  width: 100px;
+}
+.table_item_category {
+  width: 100px;
+}
+.table_item_description {
+  width: 400px;
+}
+.table_item_price {
+  width: 50px;
 }

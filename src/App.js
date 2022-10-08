@@ -2,10 +2,13 @@ import React from "react";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import './index.css'
 import Navbar from './Navbar';
+import {useEffect} from "react";
 import Products from "./Products";
 import Cart from "./Cart";
 
 function App() {
+
+
     return (
 
         <Router>

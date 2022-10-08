@@ -1,0 +1,91 @@
+{
+"data": [
+
+  {
+    "category": "Vegetables",
+    "description": "Vegetables and legumes/beans",
+    "id": 1
+  },
+  {
+    "category": "Vegetables",
+    "description": "Vegetables and legumes/beans",
+    "id": 2
+  },
+  {
+    "category": "Vegetables",
+    "description": "Vegetables and legumes/beans",
+    "id": 3
+  },
+  {
+    "category": "Vegetables",
+    "description": "Vegetables and legumes/beans",
+    "id": 4
+  },
+  {
+    "category": "Vegetables",
+    "description": "Vegetables and legumes/beans",
+    "id": 5
+  },
+
+
+  {
+    "category": "Grain",
+    "description": "Grain (cereal) foods",
+    "id": 6
+  },
+  {
+    "category": "Grain",
+    "description": "Grain (cereal) foods",
+    "id": 7
+  },
+  {
+    "category": "Grain",
+    "description": "Grain (cereal) foods",
+    "id": 8
+  },
+
+
+  {
+    "category": "Meal",
+    "description": "Lean meats and poultry, fish, eggs, tofu, nuts and seeds and legumes/beans",
+    "id": 9
+  },
+  {
+    "category": "Meal",
+    "description": "Lean meats and poultry, fish, eggs, tofu, nuts and seeds and legumes/beans",
+    "id": 10
+  },
+  {
+    "category": "Meal",
+    "description": "Lean meats and poultry, fish, eggs, tofu, nuts and seeds and legumes/beans",
+    "id": 11
+  },
+  {
+    "category": "Meal",
+    "description": "Lean meats and poultry, fish, eggs, tofu, nuts and seeds and legumes/beans",
+    "id": 12
+  },
+  {
+    "category": "Meal",
+    "description": "Lean meats and poultry, fish, eggs, tofu, nuts and seeds and legumes/beans",
+    "id": 13
+  },
+
+
+  {
+    "category": "Lactose",
+    "description": "Milk, yoghurt cheese and/or alternatives",
+    "id": 14
+  },
+  {
+    "category": "Lactose",
+    "description": "Milk, yoghurt cheese and/or alternatives",
+    "id": 15
+  },
+  {
+    "category": "Lactose",
+    "description": "Milk, yoghurt cheese and/or alternatives",
+    "id": 16
+  }
+]
+}
