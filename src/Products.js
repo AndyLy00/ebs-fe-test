@@ -27,6 +27,7 @@ const Products = () => {
                         <div className="table_item table_item_description"> Description</div>
                         <div className="table_item table_item_price"> Price</div>
                     </div>
+
                     {products && <ProductList products={products}/> }
 
                     <div className="table_element"></div>
