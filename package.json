@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axes": "^0.0.0",
+    "axios": "^1.2.1",
     "bootstrap": "^5.2.2",
     "react": "^18.0.0",
     "react-bootstrap": "^2.5.0",
