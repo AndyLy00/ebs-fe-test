@@ -19,8 +19,8 @@ function Login() {
 
     const handleLogin = async () => {
         try {
-            const response = await axios.post('http://localhost:5000/login', { email, password });
-            console.log('Response:', response); // Add this line
+            const response = await axios.post('https://backendnewstore.netlify.app/login', { email, password });
+            console.log('Response:', response);
             const receivedToken = response.data.token;
             setToken(receivedToken);
             localStorage.setItem('token', receivedToken);
@@ -50,10 +50,10 @@ function Login() {
                             <MDBCardBody className='p-5 w-100 d-flex flex-column'>
                                 <h2 className="fw-bold mb-2 text-center">Sign in</h2>
                                 <p className="text-white-50 mb-3">Please enter your login and password!</p>
-                                <MDBInput wrapperClass='mb-4 w-100' label='Email address' id='formControlLg' type='email' size="lg" onChange={(e) => setEmail(e.target.value)}/>
-                                <MDBInput wrapperClass='mb-4 w-100' label='Password' id='formControlLg' type='password' size="lg" onChange={(e) => setPassword(e.target.value)}/>
+                                <MDBInput wrapperClass='mb-4 w-100' label='Email address' id='email' type='email' size="lg" onChange={(e) => setEmail(e.target.value)}/>
+                                <MDBInput wrapperClass='mb-4 w-100' label='Password' id='password' type='password' size="lg" onChange={(e) => setPassword(e.target.value)}/>
                                 <MDBCheckbox name='flexCheck' id='flexCheckDefault' className='mb-4' label='Remember password' />
-                                <MDBBtn size='lg' onClick={handleLogin}>
+                                <MDBBtn size='lg' style={{height: "50px"}} onClick={handleLogin}>
                                     Login
                                 </MDBBtn>
                             </MDBCardBody>
